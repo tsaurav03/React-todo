@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  /* Very light orange background for the body */
+  margin: 0;
+  padding: 0;
+}
+
+/* TodoWrapper Styles */
+.TodoWrapper {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f3e6ff;
+  /* Light purple background for the todo container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* TodoForm Styles */
+.TodoForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Light gray border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.todo-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  /* Green button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-btn:hover {
+  background-color: #218838;
+  /* Darker green on hover */
+}
+
+/* Todo Styles */
+.Todo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  /* Light gray border for separation */
+  background-color: #ffffff;
+  /* White background for each todo item */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  /* Space between todo items */
+}
+
+.Todo p {
+  flex: 1;
+  margin: 0;
+  cursor: pointer;
+}
+
+.Todo p.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  /* Gray color for completed tasks */
+}
+
+.Todo .todo-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #007bff;
+  /* Blue color for icons */
+}
+
+.Todo .todo-icon:hover {
+  color: #0056b3;
+  /* Darker blue on hover */
+}
+
+.Todo .todo-icon+.todo-icon {
+  margin-left: 15px;
+  /* Space between edit and trash icons */
+}
+
+/* EditTodoForm Styles */
+.EditTodoForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.EditTodoForm .todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Light gray border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.EditTodoForm .todo-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  /* Blue button */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.EditTodoForm .todo-btn:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
